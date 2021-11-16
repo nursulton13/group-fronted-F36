@@ -91,3 +91,51 @@
   }
 }
 /*# sourceMappingURL=style.css.map */
+.cat{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+text-align: center;
+/* TEXT CLR */
+color: #5E6282;
+}
+.offer{
+font-family: Volkhov;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 64px;
+/* identical to box height */
+text-align: center;
+text-transform: capitalize;
+/* 3rd */
+color: #14183E;
+}
+
+.container p{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  text-align: center;
+  /* TEXT CLR */
+  color: #5E6282;
+
+}
+
+.container h4 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  /* text heading color */
+  color: #1E1D4C;
+
+}
