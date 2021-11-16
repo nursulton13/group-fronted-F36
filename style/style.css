@@ -3,8 +3,82 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Arial", sans-serif;
-  background: yellow;
-  color: aquamarine;
+  font-family: "Roboto", sans-serif;
+}
+
+.jadoo {
+  background-image: url(../img/Decore.png);
+  background-size: cover;
+}
+
+.jadoo .navbar-expand-lg .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.jadoo ul {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jadoo .navbar-toggler {
+  border-color: transparent;
+}
+
+.jadoo .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.jadoo .home-text h4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #DF6951;
+}
+
+.jadoo .home-text h1 {
+  font-family: 'Volkhov', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 74px;
+  line-height: 79px;
+  letter-spacing: -0.04em;
+  color: #181E4B;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 972px) {
+  .home .col-md-6:first-child {
+    margin: 0 !important;
+  }
+  .home .home-text h1 {
+    font-size: 44px;
+    line-height: 49px;
+  }
+}
+
+@media screen and (max-width: 972px) {
+  .home .col-md-6:first-child {
+    margin: 0 !important;
+  }
+  .home .home-text h1 {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home .home-text {
+    text-align: center;
+  }
+  .home .home-text h1 {
+    font-size: 44px;
+    line-height: 49px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

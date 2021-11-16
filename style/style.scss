@@ -1,2 +1,79 @@
 @import 'standart';
 @import 'variables';
+
+.jadoo{
+    background-image: url(../img/Decore.png);
+    background-size: cover;
+    .navbar-expand-lg{
+        .navbar-collapse {
+            justify-content: flex-end;
+        }
+    }
+    ul{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border-color: transparent;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .home-text{
+        h4{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: #DF6951;
+        }
+        h1{
+            font-family: 'Volkhov', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 74px;
+            line-height: 79px;
+            letter-spacing: -0.04em;
+            color: #181E4B;
+        }
+    }
+}
+@media screen and (max-width:1200px) and (min-width:972px) {
+    .home{
+        .col-md-6:first-child{
+            margin: 0 !important;
+        }
+        .home-text{
+            h1{
+                font-size: 44px;
+                line-height: 49px;
+            }
+        }
+    }
+}
+@media screen and (max-width:972px) {
+    .home{
+        .col-md-6:first-child{
+            margin: 0 !important;
+        }
+        .home-text{
+            h1{
+                font-size: 24px;
+                line-height: 29px;
+            }
+        }
+    }
+}
+@media screen and (max-width:767px) {
+    .home{
+        .home-text{
+        text-align: center;
+        h1{
+                font-size: 44px;
+                line-height: 49px;
+            }
+    }
+    }
+}
+    

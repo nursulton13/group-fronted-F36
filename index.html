@@ -5,39 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ionic</title>
-    <link rel="icon" href="./images/Безымянный.png">
+    <link rel="icon" href="./img/Logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Lobster&family=Petemoss&family=Philosopher:wght@400;700&family=Roboto:wght@500&family=Volkhov:wght@700&display=swap"
+      rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Active</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    <h3>o'zim uchun</h3>
-    <h2>Bilol</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt fugiat quo a. Laboriosam ab quas cumque facilis porro odit. Quod et sunt ex doloremque a hic possimus vero, aspernatur recusandae.</p>
-    <br>
-    <div class="brend">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 bg-light text-center"><img src="./images/solution/Frame (2).png" alt=""></div>
-                <div class="col-md-4 bg-light text-center"><img src="./images/solution/Frame (3).png" alt=""></div>
-                <div class="col-md-4 bg-light text-center"><img src="./images/solution/Frame (4).png" alt=""></div>
+    <div class="jadoo">
+      <div class="container navbar-1">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./img/Logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item mx-3">
+                  <a class="nav-link" aria-current="page" href="#">Desitnations</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#">Hotels</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" aria-current="page" href="#">Flights</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#">Bookings</a>
+                </li>
+                <li class="nav-item mx-3">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+                <button class="btn btn-outline-dark mx-3" type="submit">Sign up</button>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    ENG
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">UZ</a></li>
+                    <li><a class="dropdown-item" href="#">RUS</a></li>
+                    <li><a class="dropdown-item" href="#">ENG</a></li>
+                  </ul>
+                </li>
+              </ul>
             </div>
+          </div>
+        </nav>
+      </div>
+      <div class="home container">
+        <div class="row mx-1 my-5">
+          <div class="col-md-6 my-5">
+            <div class="home-text">
+              <h4>Best Destinations around the world</h4>
+              <h1 class="my-3">Travel, enjoy 
+              and live a new 
+              and full life</h1>
+              <p>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate
+              sell they west hard for the.</p>
+              <div class="gruppa">
+                <button class="btn btn-success text-white">Find out more</button>
+                <button class="btn btn-danger text-white text-center">
+                  <img class="px-1" src="./img/Polygon 1.png" alt="">
+                  Play Demo</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img class="w-100" src="./img/Image.png" alt="">
+          </div>
         </div>
+      </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
