@@ -18,6 +18,13 @@
     .navbar-toggler:focus{
         box-shadow: none;
     }
+    .nav-item > a.nav-link{
+        border-bottom:2px solid transparent;
+    }
+    .nav-item:hover > a.nav-link{
+        color: crimson;
+        border-bottom:2px solid crimson;
+    }
     .home-text{
         h4{
             font-family: 'Poppins', sans-serif;

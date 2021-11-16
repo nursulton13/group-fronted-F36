@@ -32,6 +32,15 @@
           box-shadow: none;
 }
 
+.jadoo .nav-item > a.nav-link {
+  border-bottom: 2px solid transparent;
+}
+
+.jadoo .nav-item:hover > a.nav-link {
+  color: crimson;
+  border-bottom: 2px solid crimson;
+}
+
 .jadoo .home-text h4 {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
